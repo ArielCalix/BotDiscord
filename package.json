@@ -1,0 +1,44 @@
+{
+  "name": "mini-niby-official",
+  "version": "1.0.0",
+  "description": "<a href=\"https://discord.gg/MBPsvcphGf\"><img src=\"https://discordapp.com/api/guilds/879397504075063297/widget.png?style=banner2\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "engines": {
+    "node": "16.11.0",
+    "npm": "8.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@distube/soundcloud": "^1.1.0",
+    "@distube/spotify": "^1.2.1",
+    "@distube/ytdl-core": "^4.15.1",
+    "colors": "^1.4.0",
+    "discord.js": "^13.6.0",
+    "distube": "^3.3.1-1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^4.4.1",
+    "libsodium-wrappers": "^0.7.9",
+    "mongoose": "^6.2.0",
+    "nodemon": "^3.1.7",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "node": "^16.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dewstouh/bot-del-canal.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dewstouh/bot-del-canal/issues"
+  },
+  "homepage": "https://github.com/dewstouh/bot-del-canal#readme"
+}
